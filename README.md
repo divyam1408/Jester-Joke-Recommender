@@ -52,5 +52,5 @@ python test.py
 
 train.py cotains the code to train our Ensemble model. Once the model is trained we can run test.py to get predictions for any user.
 
-## Deplyment
+## Deployment
 Above solution is also deplyed on heroku and can ne accessed using https://joke-recommendation-system.herokuapp.com/

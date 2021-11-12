@@ -51,6 +51,7 @@ python train.py
 python test.py
 
 train.py cotains the code to train our Ensemble model. Once the model is trained we can run test.py to get predictions for any user.
+Modules.py contains all the modeuled imported needed to run the code. logs file contain the training logs once successfull training is done.
 
 ## Deployment
 Above solution is also deplyed on heroku and can ne accessed using https://joke-recommendation-system.herokuapp.com/

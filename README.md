@@ -1,4 +1,8 @@
 # Jester-Joke-Recommender
+
+jokes_EDA file is an ipython notebook which contains my entire approach and codebase for all the models tried for this problem. Train.py contains the code to train 
+my best model only which was an ensemble model.
+
 ## About Dataset
 The dataset for this problem can be found here https://www.kaggle.com/vikashrajluhaniwal/jester-17m-jokes-ratings-dataset?select=jester_ratings.csv 
 Data is distributed across two CSV files:- jester_ratings.csv containing three columns [userID],[jokeID],[Ratngs] and other jester_items.csv mapping ratings to the actual jokes.
@@ -52,6 +56,8 @@ python test.py
 
 train.py cotains the code to train our Ensemble model. Once the model is trained we can run test.py to get predictions for any user.
 Modules.py contains all the modeuled imported needed to run the code. logs file contain the training logs once successfull training is done.
+
+
 
 ## Deployment
 Above solution is also deplyed on heroku and can ne accessed using https://joke-recommendation-system.herokuapp.com/
